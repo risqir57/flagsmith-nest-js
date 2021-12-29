@@ -1,0 +1,16 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "prettier.singleQuote": true,
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "foo": "bar"
+    },
+    "local": {
+      "host": "http://localhost:3000"
+    },
+  }
+}

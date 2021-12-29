@@ -1,0 +1,14 @@
+GET {{host}}/product
+###
+
+GET {{host}}/product/1
+###
+
+POST {{host}}/product
+###
+
+PATCH  {{host}}/product/1
+###
+
+DELETE {{host}}/product/1
+###
