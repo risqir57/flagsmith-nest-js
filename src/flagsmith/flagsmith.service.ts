@@ -13,6 +13,7 @@ export class FlagsmithService implements OnModuleInit {
    */
   async onModuleInit(): Promise<void> {
     flagsmith.init({
+      // TODO: Change this id to yours
       environmentID: 'X7AF6HhD7zGDECjv2cx9j4',
       onError: (err: any) => {
         console.error('FlagsmithService:onModuleInit', JSON.stringify(err));
